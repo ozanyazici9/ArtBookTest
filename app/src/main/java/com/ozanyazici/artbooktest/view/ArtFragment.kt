@@ -60,6 +60,7 @@ class ArtFragment @Inject constructor(val artRecyclerAdapter: ArtRecyclerAdapter
         binding.fab.setOnClickListener {
             findNavController().navigate(ArtFragmentDirections.actionArtFragmentToArtDetailsFragment())
         }
+
     }
 
     private fun subscribeToObserves() {

@@ -19,9 +19,9 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-class ImageApiFragment @Inject constructor(private val imageRecyclerAdapter: ImageRecyclerAdapter): Fragment(R.layout.fragment_image_api) {
+class ImageApiFragment @Inject constructor(val imageRecyclerAdapter: ImageRecyclerAdapter): Fragment(R.layout.fragment_image_api) {
 
-    private lateinit var viewModel: ArtViewModel
+    lateinit var viewModel: ArtViewModel
     private var fragmentBinding: FragmentImageApiBinding? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

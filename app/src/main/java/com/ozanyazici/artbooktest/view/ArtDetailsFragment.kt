@@ -11,16 +11,17 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.RequestManager
 import com.ozanyazici.artbooktest.R
+import com.ozanyazici.artbooktest.adapter.ImageRecyclerAdapter
 import com.ozanyazici.artbooktest.databinding.FragmentArtDetailsBinding
 import com.ozanyazici.artbooktest.util.Resource
 import com.ozanyazici.artbooktest.viewmodel.ArtViewModel
 import javax.inject.Inject
 
 class ArtDetailsFragment @Inject constructor(
-    val glide: RequestManager
+    val glide: RequestManager,
 ) : Fragment(R.layout.fragment_art_details) {
 
-    private lateinit var viewModel: ArtViewModel
+    lateinit var viewModel: ArtViewModel
     private var fragmentBinding: FragmentArtDetailsBinding? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -57,12 +57,8 @@ q
 Aapp/src/test/java/com/ozanyazici/artbooktest/MainCoroutineRule.kt,1\f\1f05350e7f3499c66b382614a80d53dd2deceb9e
 x
 Happ/src/androidTest/java/com/ozanyazici/artbooktest/roomdb/ArtDaoTest.kt,b\d\bdb95f541930ab08c41479b8caba8e8f6f90a3d2
-~
-Napp/src/androidTest/java/com/ozanyazici/artbooktest/ExampleInstrumentedTest.kt,9\5\95ad8d71931ba21ba27486b5c4e29a6e22ddeefd
 s
 Capp/src/androidTest/java/com/ozanyazici/artbooktest/LiveDataUtil.kt,6\6\66b4e0d5a4117694bea0ff9e0b93a40c81d5d68a
-w
-Gapp/src/androidTest/java/com/ozanyazici/artbooktest/HiltTestActivity.kt,b\5\b596ad6170e9b8c6a622450e816c83f2fb11abdb
 Q
 !app/src/debug/AndroidManifest.xml,6\4\64e40361e5f707c52d6c7e7a1c8739d3cdfac01e
 u
@@ -75,10 +71,6 @@ G.idea/sonarlint/issuestore/d/1/d1efeb7afeddb21ee91d93f2a0d810a4913efb72,f\2\f2
 Q.idea/sonarlint/securityhotspotstore/6/6/66b4e0d5a4117694bea0ff9e0b93a40c81d5d68a,2\2\2204232cde314311451f0257a04200eafdae654a
 w
 G.idea/sonarlint/issuestore/6/6/66b4e0d5a4117694bea0ff9e0b93a40c81d5d68a,c\1\c178733cf4a6620b2c89fd6ade25778f2d8a8563
-w
-G.idea/sonarlint/issuestore/9/5/95ad8d71931ba21ba27486b5c4e29a6e22ddeefd,4\2\42a891b250bd5ef91e487f52853d8495a0fca8a8
-Å
-Q.idea/sonarlint/securityhotspotstore/9/5/95ad8d71931ba21ba27486b5c4e29a6e22ddeefd,c\0\c02c1014f2f069e79ae095e515fc1575d3a5915c
 w
 G.idea/sonarlint/issuestore/1/8/18fc3a236d739e103efe2e3edfddc4f4f5482f56,f\c\fc301c0e29bd22afa4b13dda1440ac6162eaa607
 q
@@ -99,3 +91,13 @@ G.idea/sonarlint/issuestore/1/f/1f05350e7f3499c66b382614a80d53dd2deceb9e,e\f\ef
 Q.idea/sonarlint/securityhotspotstore/b/d/bdb95f541930ab08c41479b8caba8e8f6f90a3d2,5\7\570d19503c9011a41f4b291078a22026f40a5290
 w
 G.idea/sonarlint/issuestore/b/d/bdb95f541930ab08c41479b8caba8e8f6f90a3d2,6\e\6ea2f607aa07d330834fcc4fc3576b248b649a9c
+{
+Kapp/src/androidTest/java/com/ozanyazici/artbooktest/view/ArtFragmentTest.kt,d\7\d775efcdb7436a4587219464a721ef1af9298aae
+t
+Dapp/src/androidTest/java/com/ozanyazici/artbooktest/HiltExtension.kt,a\1\a18b3ffa8aba2815b38dac44511e54c5857d0d2e
+Ç
+Rapp/src/androidTest/java/com/ozanyazici/artbooktest/view/ArtDetailsFragmentTest.kt,1\0\106a965c06b9a64bfb494d87e275bc7d90626fca
+Å
+Qapp/src/androidTest/java/com/ozanyazici/artbooktest/repo/FakeArtRepositoryTest.kt,4\1\41b7759190d12509f725f3b47d28c2926cc0ce4f
+Ä
+Papp/src/androidTest/java/com/ozanyazici/artbooktest/view/ImageApiFragmentTest.kt,2\d\2dc81c4f4911c313350913dfd7dc7dc877a4dcf8

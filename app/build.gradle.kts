@@ -55,7 +55,7 @@ dependencies {
     //Hilt
     implementation("com.google.dagger:hilt-android:2.50")
     ksp("com.google.dagger:hilt-compiler:2.50")
-    ksp("androidx.hilt:hilt-compiler:1.1.0")
+    ksp("androidx.hilt:hilt-compiler:1.2.0")
 
     //Coroutine
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0-RC2")
@@ -109,12 +109,12 @@ dependencies {
     // Android Test Implementations
     androidTestImplementation("junit:junit:4.13.2")
     //androidTestImplementation "com.linkedin.dexmaker:dexmaker-mockito:2.12.1"
-    androidTestImplementation("org.mockito:mockito-android:4.7.0")
+    androidTestImplementation("org.mockito:mockito-android:5.10.0")
     androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
     androidTestImplementation("androidx.arch.core:core-testing:2.2.0")
     androidTestImplementation("com.google.truth:truth:1.3.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    androidTestImplementation("org.mockito:mockito-core:4.7.0")
+    androidTestImplementation("org.mockito:mockito-core:5.10.0")
     androidTestImplementation("com.google.dagger:hilt-android-testing:2.43.2")
     kspAndroidTest("com.google.dagger:hilt-android-compiler:2.50")
     debugImplementation("androidx.fragment:fragment-testing:1.7.0-alpha10")

@@ -16,7 +16,7 @@ class ImageRecyclerAdapter @Inject constructor(val glide: RequestManager): Recyc
 
     class ImageViewHolder(val binding: ImageRowBinding): RecyclerView.ViewHolder(binding.root)
 
-    private val onItemClickListener: ((String) -> Unit) ? = null
+    //private val onItemClickListener: ((String) -> Unit) ? = null
 
     private val diffUtil = object : DiffUtil.ItemCallback<String>() {
         override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {

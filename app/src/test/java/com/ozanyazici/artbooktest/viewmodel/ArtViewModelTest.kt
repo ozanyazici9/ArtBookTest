@@ -35,7 +35,7 @@ class ArtViewModelTest {
     //Test isimleri endüstride bu kadar açık yazılmalı. Ne yapacağımız ve karşılığında ne beklediğimizi isim olarak yazarız.
     //Bu testleri yapmadan önce uygulamamın önbelleğini silmek testin güveniliriliği açısından iyi olur.
     @Test
-    fun `insert art without year retruns error`(){
+    fun `insert art without year returns error`(){
         viewModel.makeArt("Mona Lisa","Da Vinci","")
         //liveData olan inserrArtMessage ı getorAwaitValueTest sınıfı sayesinde liveData olmaktan çıkardık.
         val value = viewModel.insertArtMessage.getOrAwaitValueTest()
@@ -44,14 +44,14 @@ class ArtViewModelTest {
     }
 
     @Test
-    fun `insert art without name retruns error`(){
+    fun `insert art without name returns error`(){
         viewModel.makeArt("","Da Vinci","1900")
         val value = viewModel.insertArtMessage.getOrAwaitValueTest()
         assertThat(value.status).isEqualTo(Resource.Status.ERROR)
     }
 
     @Test
-    fun `insert art without artistName retruns error`(){
+    fun `insert art without artistName returns error`(){
         viewModel.makeArt("Mona Lisa","","1900")
         val value = viewModel.insertArtMessage.getOrAwaitValueTest()
         assertThat(value.status).isEqualTo(Resource.Status.ERROR)
